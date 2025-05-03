@@ -5,7 +5,7 @@ function App() {
     <>
       {/* <Component />
       <Profile /> */}
-      <Test />
+      <Test num={5} />
     </>
   );
 }
