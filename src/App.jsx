@@ -1,11 +1,12 @@
-import Test from "./components/Test";
+import Curly from "./components/Curly";
 
 function App() {
   return (
     <>
       {/* <Component />
       <Profile /> */}
-      <Test num={5} />
+      {/* <Test num={5} /> */}
+      <Curly />
     </>
   );
 }
