@@ -1,9 +1,11 @@
-import Gallery from "./components/Gallery";
+import Component from "./components/Gallery";
+import { Profile } from "./components/Profile";
 
 function App() {
   return (
     <>
-      <Gallery />
+      <Component />
+      <Profile />
     </>
   );
 }
