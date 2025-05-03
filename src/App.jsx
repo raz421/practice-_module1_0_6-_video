@@ -1,11 +1,11 @@
-import Component from "./components/Gallery";
-import { Profile } from "./components/Profile";
+import Test from "./components/Test";
 
 function App() {
   return (
     <>
-      <Component />
-      <Profile />
+      {/* <Component />
+      <Profile /> */}
+      <Test />
     </>
   );
 }
