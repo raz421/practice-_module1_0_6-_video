@@ -1,10 +1,9 @@
-export default function Info({ name, age, favrt, skill }) {
+export default function Info({ obj, age }) {
   return (
     <div>
-      <h1>Name is {name}</h1>
-      <h1>Age is {age}</h1>
-      <h1>favorite thing is {favrt}</h1>
-      <h1>Skill has {skill}</h1>
+      <h1 className="text-3xl font-bold"> i am from info</h1>
+      <p className="text-3xl font-bold"> Name is {obj.name}</p>
+      <p className="text-3xl font-bold"> Age is {age}</p>
     </div>
   );
 }
