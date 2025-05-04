@@ -1,19 +1,14 @@
-export default function Items({ name, ispacked }) {
-  //   if (ispacked) {
-  //     return <li className="text-xl font-black ">{name} ✅</li>;
-  //   }
-  //   return <li className="text-xl font-black ">{name} ❌</li>;
+export default function Items({ name, ispacked, finish }) {
+  let value = "";
+  if (ispacked) {
+    if (finish) {
+      value = <del>{name} ✅</del>;
+    } else {
+      value = name + "✅";
+    }
+  } else {
+    value = name + "❌";
+  }
 
-  //   here are repeatative code spotted.li tag write twice  with same class,wich is not good
-  // the rule of Programminng DRY(Don't Repeat yourself)
-  //   here the soluation
-  return (
-    <div>
-      <li className="text-xl font-black ">
-        {ispacked ? name + "✅" : name + "❌"}
-      </li>
-    </div>
-
-    //there are another problem arise
-  );
+  return <li className="text-xl font-black ">{value}</li>;
 }
