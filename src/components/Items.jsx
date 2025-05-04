@@ -12,11 +12,9 @@ export default function Items({ name, ispacked, finish }) {
 
   return (
     <>
+      {/* use nullish coalacu=ing oparator */}
       <li className="text-xl font-black ">
-        {name} {ispacked > 0 && "✅"}
-      </li>
-      <li className="text-xl font-black ">
-        {name} {ispacked > 0 || "❌"}
+        {name} {ispacked ?? "❌"}
       </li>
     </>
   );
