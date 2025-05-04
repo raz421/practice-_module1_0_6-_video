@@ -1,4 +1,5 @@
 export default function Avatar({ obj, age }) {
+    age=89;
   return (
     <div>
       <h1 className="text-3xl font-bold"> i am from profile</h1>
