@@ -10,7 +10,7 @@ export default function Curly() {
   const Teacher = {
     addres: "Mirpur 2",
   };
-  const value = "true";
+  const value = true;
   return (
     <div
       style={{
@@ -25,7 +25,7 @@ export default function Curly() {
       <p>Faculty name {obj.department.faculty}</p>
       <p>Department Name {obj.department.name}</p>
       <p>Teacher address {Teacher.addres}</p>
-      <p>{`${value ? "YES" : "No"}`}</p>
+      <p>{` ${Teacher.addres}`}</p>
     </div>
   );
 }
