@@ -9,9 +9,9 @@ export default function ProductList() {
         some of availabel and some of not
       </h1>
       <ul>
-        <Items ispacked={true} name={"Coffy"} finish={true} />
-        <Items ispacked={true} name={"Teaspoon"} finish={false} />
-        <Items ispacked={false} name={"Apple"} finish={false} />
+        <Items ispacked={6} name={"Coffy"} finish={true} />
+        <Items ispacked={4} name={"Teaspoon"} finish={false} />
+        <Items ispacked={0} name={"Apple"} finish={false} />
       </ul>
     </div>
   );
